@@ -28,11 +28,11 @@
 **บ่าย — เทรนจริง**
 - [/] input ที่เลือกเทรน: image
 - [/] เทรน V1 + อ่าน F1/confusion matrix → [afternoon/model.md](afternoon/model.md)
-- [/] deploy ลงบอร์ดรันได้ (รูป/คลิปใน `assets/`)
-- [/] prediction log ≥10 cases → [afternoon/predictions.csv](afternoon/predictions.csv)
+- [ ] deploy ลงบอร์ดรันได้ (รูป/คลิปใน `assets/`)
+- [ ] prediction log ≥10 cases → [afternoon/predictions.csv](afternoon/predictions.csv)
 
 **ต่อยอด — ไอเดียนวัตกรรม**
-- [/] Lean Canvas 4 ช่องแรก → [idea-canvas.md](idea-canvas.md)
+- [ ] Lean Canvas 4 ช่องแรก → [idea-canvas.md](idea-canvas.md)
 
 ## 📝 ตอบสั้น 3 ข้อ (ปิดวัน)
 **1. ทีมสอน AI ให้ทำอะไร? (ปัญหา + ผู้ใช้)** สอน AI ให้ตรวจจับการสวมหน้ากากอนามัย (with_mask / no_mask) จากภาพกล้อง เพื่อคัดกรองผู้ที่ไม่สวมแมสในพื้นที่สาธารณะ
