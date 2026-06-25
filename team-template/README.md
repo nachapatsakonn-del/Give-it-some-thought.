@@ -26,21 +26,22 @@
 - [/] ต่อ input + ลอง Modulino 7 ตัว + challenges → [morning/hardware-check.md](morning/hardware-check.md)
 
 **บ่าย — เทรนจริง**
-- [ ] input ที่เลือกเทรน: _______________
-- [ ] เทรน V1 + อ่าน F1/confusion matrix → [afternoon/model.md](afternoon/model.md)
-- [ ] deploy ลงบอร์ดรันได้ (รูป/คลิปใน `assets/`)
-- [ ] prediction log ≥10 cases → [afternoon/predictions.csv](afternoon/predictions.csv)
+- [/] input ที่เลือกเทรน: image
+- [/] เทรน V1 + อ่าน F1/confusion matrix → [afternoon/model.md](afternoon/model.md)
+- [/] deploy ลงบอร์ดรันได้ (รูป/คลิปใน `assets/`)
+- [/] prediction log ≥10 cases → [afternoon/predictions.csv](afternoon/predictions.csv)
 
 **ต่อยอด — ไอเดียนวัตกรรม**
-- [ ] Lean Canvas 4 ช่องแรก → [idea-canvas.md](idea-canvas.md)
+- [/] Lean Canvas 4 ช่องแรก → [idea-canvas.md](idea-canvas.md)
 
 ## 📝 ตอบสั้น 3 ข้อ (ปิดวัน)
-**1. ทีมสอน AI ให้ทำอะไร? (ปัญหา + ผู้ใช้)** _______________
-**2. model ทำได้ดีแค่ไหน F1 ต่ำสุดที่ class ไหน ผิดเพราะอะไร?** _______________
-**3. ถ้ามีเวลาอีก 1 ชม. จะแก้อะไรก่อน?** _______________
+**1. ทีมสอน AI ให้ทำอะไร? (ปัญหา + ผู้ใช้)** สอน AI ให้ตรวจจับการสวมหน้ากากอนามัย (with_mask / no_mask) จากภาพกล้อง เพื่อคัดกรองผู้ที่ไม่สวมแมสในพื้นที่สาธารณะ
+**2. model ทำได้ดีแค่ไหน F1 ต่ำสุดที่ class ไหน ผิดเพราะอะไร?** Accuracy 60%, F1 Score = 0.75 — sample ที่ผิดคือ simple31 (with_mask, F1 = 0%) อาจเพราะรูปไม่ชัด มุมกล้องผิดปกติ หรือแมสถูกบังบางส่วน
+**3. ถ้ามีเวลาอีก 1 ชม. จะแก้อะไรก่อน?** พิ่มรูป no_mask ใน test set และเพิ่ม training data ให้หลากหลายมุมกล้องมากขึ้น
+
 
 ## 🔗 ลิงก์
-- Edge Impulse project: _______________
+- Edge Impulse project: https://studio.edgeimpulse.com/studio/1040462/impulse/4/validation
 - รูป/คลิป model รันบนบอร์ด: ดูใน [assets/](assets/)
 
 ## 📦 ในโฟลเดอร์นี้มีอะไร
