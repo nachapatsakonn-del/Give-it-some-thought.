@@ -3,20 +3,20 @@
 
 # Afternoon — Model
 
-- **Input ที่ใช้:** _______________
-- **Classes:** _______________
-- **จำนวนตัวอย่าง/class:** _______________
-- **วิธีเชื่อมเข้า Edge Impulse:** [ ] กล้อง/ไมค์ (`edge-impulse-linux`)  [ ] Modulino (`data-forwarder`)
+- **Input ที่ใช้:** Image (กล้อง)
+- **Classes:** with_mask, no_mask
+- **จำนวนตัวอย่าง/class:** 80 images
+- **วิธีเชื่อมเข้า Edge Impulse:** [/] กล้อง/ไมค์ (`edge-impulse-linux`)  [/] Modulino (`data-forwarder`)
 
 ## V1
-- Accuracy (ใน Studio): ____
-- F1 score ราย class (class : F1): _______________
-- class ที่ F1 ต่ำสุด: _______________
+- Accuracy (ใน Studio): 60%
+- F1 score ราย class (class : F1): with_mask : 0.75 | no_mask : 0.75
+- class ที่ F1 ต่ำสุด: with_mask (มี simple31 ผิด, F1 = 0%)
 - รูป Confusion Matrix: ![cm-v1](../assets/cm-v1.png)
-- อ่านแล้วเห็นอะไร (class ไหนสับสนกับ class ไหน): _______________
+- อ่านแล้วเห็นอะไร (class ไหนสับสนกับ class ไหน): with_mask สับสนกับ no_mask
 
 ## V2 (ถ้าทัน)
-- แก้อะไรจาก V1: _______________
+- แก้อะไรจาก V1: เพิ่มรูป no_mask ใน test set / เพิ่ม training data
 - Accuracy V2: ____  | ดีขึ้น/แย่ลงตรงไหน: _______________
 
 ## รันบนบอร์ด
