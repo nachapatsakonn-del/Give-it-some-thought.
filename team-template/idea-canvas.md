@@ -1,4 +1,4 @@
-<!-- workshop-header -->
+ <!-- workshop-header -->
 <img width="1347" height="127" alt="Coding Thailand 2026 header" src="https://github.com/user-attachments/assets/ba5cf267-f460-4fb0-b69b-c461ae061a3b" />
 
 # 💡 Idea Canvas — Lean Canvas (4 ช่องแรก)
@@ -6,7 +6,7 @@
 > ทำช่วงท้ายวัน เปลี่ยน "ของที่รันได้วันนี้" → "ไอเดียนวัตกรรมที่ต่อยอด Day 2 ได้"
 > เริ่มจาก **ปัญหา** ไม่ใช่ "เรามี sensor อะไร" · ทำ 4 ช่องนี้ให้คมก่อน ที่เหลือไว้ทีหลัง
 
-- **ชื่อ Prototype (ชั่วคราว):** _______________
+- **ชื่อ Prototype (ชั่วคราว):** โครงงานระบบเพาะเลี้ยงสาหร่ายขนนกอัจฉริยะ
 
 ---
 
