@@ -17,7 +17,7 @@
 
 ## V2 (ถ้าทัน)
 - แก้อะไรจาก V1: เพิ่มรูป no_mask ใน test set / เพิ่ม training data
-- Accuracy V2: ____  | ดีขึ้น/แย่ลงตรงไหน: _______________
+- Accuracy V2: 70% | ดีขึ้น/แย่ลงตรงไหน: ค่าความแม่นยำเพิ่มมากขึ้น
 
 ## รันบนบอร์ด
 - [/] วิธีรัน: [/] กล้อง/ไมค์ → `edge-impulse-linux-runner` (Web UI :4912)  [ ] Modulino → Arduino library ในสเก็ตช์
@@ -25,5 +25,7 @@
 - คลิป/รูปตอนรัน: ![run](../assets/run.jpg)
 
 ## (ต่อยอด) Output logic
-- threshold ที่ใช้: confidence ≥ ____
-- map class → output: _______________ (เช่น "เตือน" → Buzzer + Pixels แดง)
+- threshold ที่ใช้: confidence ≥ 0.7
+- map class → output: no_mask (≥ 0.7) → "เตือน": Buzzer ดัง + Pixels แดง
+                      with_mask (≥ 0.7) → "ผ่าน": Pixels เขียว (ไม่สั่ง buzzer)
+                      ต่ำกว่า 0.7 ทั้งคู่ → "ไม่แน่ใจ": Pixels เหลือง (ไม่สั่ง buzzer)
